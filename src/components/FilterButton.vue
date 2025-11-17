@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TaskFilter } from '../types'
 
-const props = defineProps<{
+defineProps<{
 	filter: TaskFilter
 	currentFilter: TaskFilter
 }>()
